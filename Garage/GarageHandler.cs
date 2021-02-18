@@ -265,7 +265,7 @@ namespace Garage
 
                                 AddComponents();
 
-                                var car = new Car("Car", brand, fueltype, Reg_Number, color, numberOfWheels);
+                                var car = new Car("Car", Reg_Number, color, numberOfWheels, fueltype, brand);
 
                                 garage.Park(car);
 

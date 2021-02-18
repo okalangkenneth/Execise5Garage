@@ -18,29 +18,20 @@ namespace Garage
 
             garageHandler.MainMenu();
 
-
-
-
-
             Garage<Vehicle> garage = new Garage<Vehicle>(10);
 
-            
 
+            //var benz = new Car("Car");
+            var volvo= new Car("Car","ABC123", "Black", 4, "Petrol", "Volvo");
+            //var fiat = new Car();
 
+            var Scania = new Bus("Bus","BUS111", "Red", 8, 20, "Electric");
 
+            //var Misubishi = new Boat();
 
+            //var Honda = new Motorcycle();
 
-            var benz = new Car("Car");
-            var volvo= new Car();
-            var fiat = new Car();
-
-            var Scania = new Bus();
-
-            var Misubishi = new Boat;
-
-            var Honda = new Motorcycle;
-
-            var RollsRoyce = new Airplane;
+            //var RollsRoyce = new Airplane();
             
         }
     }
