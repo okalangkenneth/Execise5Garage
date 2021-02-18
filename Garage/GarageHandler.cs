@@ -281,9 +281,9 @@ namespace Garage
 
                                 AddComponents();
 
-                                var airplane = new Airplane("Airplane", numberOfSeats, Reg_Number, color, numberOfWheels);
+                                //var airplane = new Airplane("Airplane", numberOfSeats, Reg_Number, color, numberOfWheels);
 
-                                garage.Park(airplane);
+                                //garage.Park(airplane);
 
                                 break;
                             }
@@ -297,9 +297,9 @@ namespace Garage
 
                                 AddComponents();
 
-                                var bus = new Bus("Bus", numberOfEngines, Reg_Number, color, numberOfWheels);
+                                //var bus = new Bus("Bus", numberOfEngines, Reg_Number, color, numberOfWheels);
 
-                                garage.Park(bus);
+                                //garage.Park(bus);
 
 
                                 break;
@@ -314,9 +314,9 @@ namespace Garage
 
                                 AddComponents();
 
-                                var motorcycle = new Motorcycle("Motorcycle", cylinderVolume, Reg_Number, color, numberOfWheels);
+                                //var motorcycle = new Motorcycle("Motorcycle", cylinderVolume, Reg_Number, color, numberOfWheels);
 
-                                garage.Park(motorcycle);
+                                //garage.Park(motorcycle);
 
                                 break;
                             }
@@ -330,9 +330,9 @@ namespace Garage
 
                                 AddComponents();
 
-                                 var boat = new Boat("Boat", length, Reg_Number, color, numberOfWheels);
+                                 //var boat = new Boat("Boat", length, Reg_Number, color, numberOfWheels);
 
-                                garage.Park(boat);
+                                //garage.Park(boat);
 
                                 break;
                             }
